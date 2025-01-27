@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    /* Light blue background */
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    /* Green title */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #388e3c;
+}
+
+button#cancelBtn {
+    background-color: #f44336;
+}
+
+button#cancelBtn:hover {
+    background-color: #e53935;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    /* Green background for the header */
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+    /* Light grey background for data cells */
+}
+
+/* Color Specific to Each Column */
+td:nth-child(2) {
+    background-color: #f1e5e5;
+}
+
+/* First Name */
+td:nth-child(3) {
+    background-color: #e5f1e5;
+}
+
+/* Last Name */
+td:nth-child(4) {
+    background-color: #e5f0f9;
+}
+
+/* Email */
+td:nth-child(5) {
+    background-color: #fff5e5;
+}
+
+/* Department */
+
+/* Hover Effect */
+tr:hover td {
+    background-color: #e1f5fe;
+    /* Light blue on hover */
+}
+
+/* Form Styling */
+input {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Specific Color for Each Input Field */
+#firstName {
+    background-color: #f1e5e5;
+    /* Light pink for First Name */
+}
+
+#lastName {
+    background-color: #e5f1e5;
+    /* Light green for Last Name */
+}
+
+#email {
+    background-color: #e5f0f9;
+    /* Light blue for Email */
+}
+
+#department {
+    background-color: #fff5e5;
+    /* Light yellow for Department */
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    input {
+        font-size: 14px;
+    }
+}
