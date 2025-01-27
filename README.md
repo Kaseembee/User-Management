@@ -1,12 +1,11 @@
-User Management Web Application
-A simple web application where users can view, add, edit, and delete user details. The app interacts with a mock backend API (JSONPlaceholder) to simulate user management operations.
-Features:
-**View Users**: Fetch and display users from the mock API.
-**Add User**: Create a new user and send the data to the backend.
-**Edit User**: Edit an existing user's details.
-**Delete User**: Remove a user from the list.
-Tech Stack
-**Frontend:**
+This is a simple user management system built with HTML, CSS, and JavaScript. 
+The system allows you to add, edit, and delete users, with data fetched from a mock API.
+**Add Users**: Add new users through a form.
+**Edit Users**: Edit details of existing users.
+**Delete Users**: Delete users from the list.
+**Responsive Design**: The interface adjusts for different screen sizes.
+TECH STACK
+**Frontend**:
 HTML
 CSS
 JavaScript 
